@@ -1,0 +1,1017 @@
+﻿@charset "UTF-8";
+#special-sectionOverview html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#special-sectionOverview .bp-reset-element, #special-sectionOverview body, #special-sectionOverview h1, #special-sectionOverview h2, #special-sectionOverview h3, #special-sectionOverview h4, #special-sectionOverview h5, #special-sectionOverview h6, #special-sectionOverview article, #special-sectionOverview aside, #special-sectionOverview details, #special-sectionOverview figcaption, #special-sectionOverview figure, #special-sectionOverview footer, #special-sectionOverview header, #special-sectionOverview hgroup, #special-sectionOverview menu, #special-sectionOverview nav, #special-sectionOverview section, #special-sectionOverview summary, #special-sectionOverview blockquote, #special-sectionOverview q, #special-sectionOverview th, #special-sectionOverview td, #special-sectionOverview caption, #special-sectionOverview table,
+#special-sectionOverview div, #special-sectionOverview span, #special-sectionOverview object, #special-sectionOverview iframe, #special-sectionOverview p,
+#special-sectionOverview pre, #special-sectionOverview a, #special-sectionOverview abbr, #special-sectionOverview acronym, #special-sectionOverview address,
+#special-sectionOverview code, #special-sectionOverview del, #special-sectionOverview dfn, #special-sectionOverview em, #special-sectionOverview img,
+#special-sectionOverview dl, #special-sectionOverview dt, #special-sectionOverview dd, #special-sectionOverview ol, #special-sectionOverview ul, #special-sectionOverview li, #special-sectionOverview fieldset,
+#special-sectionOverview form, #special-sectionOverview label, #special-sectionOverview legend,
+#special-sectionOverview caption, #special-sectionOverview tbody, #special-sectionOverview tfoot, #special-sectionOverview thead, #special-sectionOverview tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+#special-sectionOverview article, #special-sectionOverview aside, #special-sectionOverview details, #special-sectionOverview figcaption, #special-sectionOverview figure, #special-sectionOverview footer, #special-sectionOverview header, #special-sectionOverview hgroup, #special-sectionOverview menu, #special-sectionOverview nav, #special-sectionOverview section, #special-sectionOverview summary {
+  display: block;
+}
+#special-sectionOverview blockquote, #special-sectionOverview q {
+  quotes: "" "";
+}
+#special-sectionOverview blockquote:before, #special-sectionOverview blockquote:after, #special-sectionOverview q:before, #special-sectionOverview q:after {
+  content: "";
+}
+#special-sectionOverview th, #special-sectionOverview td, #special-sectionOverview caption {
+  float: none !important;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+#special-sectionOverview table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+#special-sectionOverview a img {
+  border: none;
+}
+
+#special-sectionOverview {
+  font-size: 17px;
+  font-family: "helvetica";
+  text-decoration: none;
+  position: relative;
+  min-width: 1366px;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+#special-sectionOverview nav.shortcut {
+  position: fixed;
+  top: 25%;
+  left: 0;
+  z-index: 1000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+}
+#special-sectionOverview nav.shortcut ul {
+  width: 51px;
+  height: 380px;
+}
+#special-sectionOverview nav.shortcut ul li {
+  width: 51px;
+  height: 51px;
+  display: block;
+  border-bottom: 1px solid #e8e8e8;
+  white-space: nowrap;
+  background: #fff;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
+  background-image: -webkit-linear-gradient(left, #ffffff, #f2f2f2);
+  background-image: -moz-linear-gradient(left, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(left, #ffffff, #f2f2f2);
+  background-image: linear-gradient(left, #ffffff, #f2f2f2);
+  overflow: hidden;
+  font-size: 18px;
+  font-family: "helvetica";
+  position: absolute;
+  -webkit-transition-property: width;
+  -moz-transition-property: width;
+  -o-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#special-sectionOverview nav.shortcut ul li a {
+  height: 100%;
+  display: block;
+  padding: 0 25px 0 0;
+  line-height: 50px;
+  vertical-align: middle;
+  color: #493f39;
+  min-width: 200px \9;
+  text-decoration:none;
+}
+#special-sectionOverview nav.shortcut ul li a .icon {
+  display: inline-block;
+  width: 51px;
+  height: 100%;
+  margin-right: 15px;
+  background: url("/img/common/nav/sidebar.png") no-repeat;
+  vertical-align: middle;
+}
+
+
+#special-sectionOverview nav.shortcut ul li.m1 {
+  height: 51px;
+  top: 0;
+}
+#special-sectionOverview nav.shortcut ul li.m1:hover, #special-sectionOverview nav.shortcut ul li.m1.active {
+  width: 230px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview nav.shortcut ul li.m1 a .icon {
+  background-position: 0 0;
+}
+#special-sectionOverview nav.shortcut ul li.m1 a:hover .icon {
+  background-position: -50px 0;
+}
+#special-sectionOverview nav.shortcut ul li.m1.active a .icon, #special-sectionOverview nav.shortcut ul li.m1.on a .icon {
+  background-position: -50px 0;
+}
+
+
+#special-sectionOverview nav.shortcut ul li.m2 {
+  top: 51px;
+}
+#special-sectionOverview nav.shortcut ul li.m2:hover, #special-sectionOverview nav.shortcut ul li.m2.active {
+  width: 190px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview nav.shortcut ul li.m2 a .icon {
+  background-position: 0 -51px;
+}
+#special-sectionOverview nav.shortcut ul li.m2 a:hover .icon {
+  background-position: -50px -51px;
+}
+#special-sectionOverview nav.shortcut ul li.m2.active a .icon, #special-sectionOverview nav.shortcut ul li.m2.on a .icon {
+  background-position: -50px -51px;
+}
+
+
+#special-sectionOverview nav.shortcut ul li.m3 {
+  top: 103px;
+}
+#special-sectionOverview nav.shortcut ul li.m3:hover, #special-sectionOverview nav.shortcut ul li.m3.active {
+  width: 210px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview nav.shortcut ul li.m3 a .icon {
+  background-position: 0 -103px;
+}
+#special-sectionOverview nav.shortcut ul li.m3 a:hover .icon {
+  background-position: -50px -103px;
+}
+#special-sectionOverview nav.shortcut ul li.m3.active a .icon, #special-sectionOverview nav.shortcut ul li.m3.on a .icon {
+  background-position: -50px -103px;
+}
+
+
+#special-sectionOverview nav.shortcut ul li.m4 {
+  top: 155px;
+}
+#special-sectionOverview nav.shortcut ul li.m4:hover, #special-sectionOverview nav.shortcut ul li.m4.active {
+  width: 140px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview nav.shortcut ul li.m4 a .icon {
+  background-position: 0 -155px;
+}
+#special-sectionOverview nav.shortcut ul li.m4 a:hover .icon {
+  background-position: -50px -155px;
+}
+#special-sectionOverview nav.shortcut ul li.m4.active a .icon, #special-sectionOverview nav.shortcut ul li.m4.on a .icon {
+  background-position: -50px -155px;
+}
+
+#special-sectionOverview nav.shortcut ul li.m5 {
+  top: 207px;
+}
+#special-sectionOverview nav.shortcut ul li.m5:hover, #special-sectionOverview nav.shortcut ul li.m5.active {
+  width: 140px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview nav.shortcut ul li.m5 a .icon {
+  background-position: 0 -207px;
+}
+#special-sectionOverview nav.shortcut ul li.m5 a:hover .icon {
+  background-position: -50px -207px;
+}
+#special-sectionOverview nav.shortcut ul li.m5.active a .icon, #special-sectionOverview nav.shortcut ul li.m5.on a .icon {
+  background-position: -50px -207px;
+}
+#special-sectionOverview nav.shortcut ul li.m6 {
+  top: 259px;
+}
+#special-sectionOverview nav.shortcut ul li.m6:hover, #special-sectionOverview nav.shortcut ul li.m6.active {
+  width: 140px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview nav.shortcut ul li.m6 a .icon {
+  background-position: 0 -259px;
+}
+#special-sectionOverview nav.shortcut ul li.m6 a:hover .icon {
+  background-position: -50px -259px;
+}
+#special-sectionOverview nav.shortcut ul li.m6.active a .icon, #special-sectionOverview nav.shortcut ul li.m6.on a .icon {
+  background-position: -50px -259px;
+}
+#special-sectionOverview nav.shortcut ul li.m7 {
+  top: 311px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview nav.shortcut ul li.m7:hover, #special-sectionOverview nav.shortcut ul li.m7.active {
+  width: 186px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview nav.shortcut ul li.m7 a .icon {
+  background-position: 0 -311px;
+}
+#special-sectionOverview nav.shortcut ul li.m7 a:hover .icon {
+  background-position: -50px -311px;
+}
+#special-sectionOverview nav.shortcut ul li.m7.active a .icon, #special-sectionOverview nav.shortcut ul li.m7.on a .icon {
+  background-position: -50px -311px;
+}
+#special-sectionOverview a:focus, #special-sectionOverview a:active {
+  outline: none;
+}
+#special-sectionOverview h2 {
+  font-size: 3.52941em;
+  margin-bottom: 18px;
+  font-family: 'helvetica';
+  line-height: 1em;
+  text-transform: Uppercase;
+  letter-spacing: 0px;
+}
+#special-sectionOverview h3 {
+  font-size: 1.70588em;
+  margin-bottom: 14px;
+  font-family: 'helvetica';
+  line-height: 1.1em;
+  letter-spacing: 0px;
+}
+#special-sectionOverview h4 {
+  font-size: 0.76471em;
+  color: #828282;
+}
+#special-sectionOverview li {
+  list-style: none;
+  list-style-image: none;
+}
+#special-sectionOverview p {
+  line-height: 1.41176em;
+  font-family: "helvetica";
+}
+#special-sectionOverview h1, #special-sectionOverview h2, #special-sectionOverview h3, #special-sectionOverview p {
+  position: relative;
+}
+#special-sectionOverview h1, #special-sectionOverview h2, #special-sectionOverview h3 {
+  background-repeat: no-repeat;
+}
+#special-sectionOverview h3 {
+  height: 30px;
+}
+#special-sectionOverview .feature {
+  position: relative;
+  height: 768px;
+  overflow: hidden;
+}
+#special-sectionOverview nav.arrow {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 50%;
+  height: 38px;
+  z-index: 300;
+}
+#special-sectionOverview nav.arrow a {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  margin-left: 0px;
+  float: left;
+  background-image: url("/img/common/arrow.png");
+  background-position: 0px 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+#special-sectionOverview nav.arrow a.prev {
+  left: 50px;
+}
+#special-sectionOverview nav.arrow a.prev:hover, #special-sectionOverview nav.arrow a.prev.active {
+  background-position: 0px -44px;
+}
+#special-sectionOverview nav.arrow a.next {
+  background-position: -45px 0px;
+  right: 35px;
+}
+#special-sectionOverview nav.arrow a.next:hover, #special-sectionOverview nav.arrow a.next.active {
+  background-position: -45px -44px;
+}
+#special-sectionOverview nav.pager {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 25px;
+  left: 0px;
+  height: 12px;
+  z-index: 400;
+  margin-left:150px;
+}
+#special-sectionOverview nav.pager a {
+  width: 12px;
+  height: 12px;
+  margin-left: 23px;
+  float: left;
+  background-image: url("/img/common/radius.png");
+  background-position: 0px 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+#special-sectionOverview nav.pager a.first {
+  margin-left: 0;
+}
+#special-sectionOverview nav.pager a:hover, #special-sectionOverview nav.pager a.active {
+  background-position: 0px -12px;
+}
+#special-sectionOverview nav.pager.white a {
+  background-position: -12px 0px;
+}
+#special-sectionOverview nav.pager.white a:hover, #special-sectionOverview nav.pager.white a.active {
+  background-position: -12px -12px;
+}
+#special-sectionOverview .inner {
+  position: relative;
+  width: 1366px;
+  z-index: 0;
+  display: block;
+  margin: 0 auto;
+}
+#special-sectionOverview .inner-content {
+  position: relative;
+  z-index: 1;
+}
+#special-sectionOverview .pic {
+  position: absolute;
+}
+#special-sectionOverview .note {
+  font-size: 0.64706em;
+  line-height: 1.47059em;
+}
+#special-sectionOverview #custom-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#special-sectionOverview #custom-wrap #kv-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  height: 768px;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main {
+  position: relative;
+  z-index: 220;
+  top: 0px;
+  height: 768px;
+  min-height: 768px;
+  width:100%;
+  min-width: 1366px;
+  display: block;
+  /*background: url("/img/kv/kv-bg-windows.jpg") center top no-repeat #064da5;*/
+  background-color: #f3724b;
+  margin:0 auto;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main .inner {
+  z-index: 20;
+  left: 30%;
+  position: relative;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main .inner .inner-content {
+  padding-top: 110px;
+  padding-left: 205px;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main .inner .inner-content h1 {
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-align: left;
+  width: 518px;
+  height: 240px;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main .inner .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 320px;
+  width: 500px;
+  color: #fbfbfb;
+  margin-top:-20px;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main .inner ul {
+  display: inline;
+  position: absolute;
+  top: 450px;
+  left: 205px;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main .inner ul li {
+  width: 550px;
+  height: 180px;
+  position: relative;
+  overflow: hidden;
+  display: inline;
+  float: left;
+  margin-left: -20px;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main .inner ul li a {
+  display: block;
+  position: absolute;
+  text-decoration: none;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main .inner ul li a img {
+  display: block;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main .inner ul li a b {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 110px;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('/img/index/play-icon.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 51px;
+  height: 51px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transition-timing-function: ease-out-in;
+  -moz-transition-timing-function: ease-out-in;
+  -o-transition-timing-function: ease-out-in;
+  transition-timing-function: ease-out-in;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main .inner ul li a p {
+  color: #364120;
+}
+#special-sectionOverview #custom-wrap #kv-wrap #kv-main .inner ul li a:hover b {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF );
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+#special-sectionOverview #custom-wrap #follow-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+}
+
+#special-sectionOverview #custom-wrap #follow-wrap #launched-video section {
+  background: rgb(168, 209, 100);
+}
+#special-sectionOverview #custom-wrap #follow-wrap #launched-video section {
+  color: #618383;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #launched-video section .inner-content {
+  padding-top: 158px;
+  padding-left: 203px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #launched-video section .inner-content h2 {
+  color: #618383;
+  height: 200px;
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #launched-video section .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 320px;
+  width: 520px;
+  margin-top: -80px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project {
+  color: #919191;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .bg li.kv {
+  background: url("/img/camera/camera-bg.jpg") center top no-repeat #f3724b;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .bg li.state1 {
+  background: url("/img/camera/camera-bg.jpg") center top no-repeat #f3724b;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .bg li.state2 {
+  background: url("/img/camera/camera-bg.jpg") center top no-repeat #f3724b;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .bg li.state3 {
+  background: url("/img/camera/camera-bg.jpg") center top no-repeat #f3724b;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .bg li.state4 {
+  background: url("/img/camera/camera-bg.jpg") center top no-repeat #f3724b;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv {
+  overflow: hidden;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner .index {
+    width:300px;
+    height:450px;
+    background-color: rgba(255,255,255,0.3);
+    position:absolute;
+    display:inline;
+    float:left;
+    top:200px;
+    cursor:pointer;
+    z-index:500;
+    animation:        flipout 0.5s ease forwards;
+    border:10px solid rgba(255,255,255,0.5);
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner .index:hover {
+    background-color: rgba(255,255,255,0.1);
+    animation:        flipin 0.5s ease forwards;
+    border:0px solid #fff;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner .index:hover article.pre{
+    display:none;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner #pro1 { left:0.5%;}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner #pro2 { left:25.5%;}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner #pro3 { left:50.5%;}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner #pro4 { left:75.5%;}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner .index article.pre {
+    position:absolute;
+    padding-top:150px;
+    padding-left:30px;
+    display:block;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner .index article.next {
+    position:absolute;
+    padding-top:150px;
+    padding-left:30px;
+    display:none;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner .index:hover article.next {
+    display:block;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner .index:hover article.next h4{
+    display:block;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner .index article h4 {
+    font-size: 36px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner-content {
+  padding-left: 200px;
+  padding-top: 80px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner-content h3 {
+  color: #919191;
+  height: 100px;
+  font-size: 80px;
+  color:#e9e9e9;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 400px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .kv .pic {
+  left: 50px;
+  top: 145px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state1 .inner-content {
+  padding-left: 825px;
+  padding-top: 290px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state1 .inner-content h3 {
+  color: #919191;
+  line-height: 30px;
+  height: 30px;
+  font-size: 24px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state1 .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 350px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state2 .inner-content {
+  padding-left: 195px;
+  padding-top: 220px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state2 .inner-content h3 {
+  color: #919191;
+  line-height: 30px;
+  height: 30px;
+  font-size: 24px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state2 .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 280px;
+  width: 400px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state3 .inner-content {
+  padding-left: 195px;
+  padding-top: 130px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state3 .inner-content h3 {
+  color: #919191;
+  height: 48px;
+  font-size: 48px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state3 .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 280px;
+  width: 410px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state3 .pic {
+  left: 365px;
+  top: 205px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state4 .inner-content {
+  padding-left: 780px;
+  padding-top: 175px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state4 .inner-content h3 {
+  color: #919191;
+  height: 48px;
+  font-size: 48px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #project .content .state4 .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 280px;
+  width: 400px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .bg li.kv {
+  background: rgb(251, 207, 97); 
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv {
+  color: #fff;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv .inner .profile-pic {
+  background: url("/img/sherry.jpg") #fff;
+  width:400px;
+  height:400px;
+  border-radius:400px;
+  position:absolute;
+  top: 140px;
+  left: 80px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv .inner-content {
+  padding-left: 650px;
+  padding-top: 120px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv .inner-content h2 {
+  height: 100px;
+  font-size: 70px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv .inner-content p {
+  display: inline;
+  text-align:center;
+  width: 400px;
+  left:10px;
+  font-size:20px;
+  line-height: 40px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv .inner-content section {
+    float:left;
+    margin-top:50px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv .inner-content section .portfolio {
+  display: inline;
+  position:absolute;
+  float:left;
+  text-align:center;
+  font-size:24px;
+  height:50px;
+  line-height:50px;
+  background: rgb(255, 187, 67); 
+  cursor:pointer;
+  padding:0px 28px;
+  border-radius:2px;
+  top:500px;
+  border:3px solid rgb(255, 187, 67);
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv .inner-content section .portfolio a{
+   color:#fff;
+   text-decoration:none;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv .inner-content section #linkedin {
+    left:650px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv .inner-content section #resume {
+    left:830px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv .inner-content section .portfolio:hover {
+  border:3px solid #fff;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .kv .pic {
+  left: 805px;
+  top: 15px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .state1 {
+  color: #00a8ff;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .state1 .inner-content {
+  padding-left: 742px;
+  padding-top: 255px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .state1 .inner-content h3 {
+  color: #00a8ff;
+  height: 48px;
+  font-size: 48px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap #sherry-profile .content .state1 .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 350px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page {
+  position: relative;
+  margin: 0 auto;
+  min-width: 1366px;
+  min-height: 768px;
+  overflow: hidden;
+  *zoom: 1;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page .tip {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul {
+  height: 768px;
+  position: relative;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF );
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  transition-property: left;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul li.active {
+  height: 768px;
+  left: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF );
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  transition-property: left;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul li.next {
+  height: 768px;
+  left: 100%;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul li.prev {
+  height: 768px;
+  left: -100%;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul li.prepare {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul.bg {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul.bg li {
+  height: 768px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul.bg li.first {
+  display: block;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF );
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul.bg li.follow .inner-content {
+  padding-left: 228px;
+  padding-top: 285px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul.bg li.follow .inner-content h3 {
+  color: #d63913;
+  font-size: 48px;
+  height: 48px;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul.bg li.follow .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  left: 0px;
+  width: 420px;
+  color: #d63913;
+}
+#special-sectionOverview #custom-wrap #follow-wrap .page ul.content {
+  z-index: 200;
+}
+#special-sectionOverview #canvas {
+  left: -94px;
+  position: absolute;
+  top: 86px;
+}
+
+
+@keyframes flipout {
+  0% {transform: translate(0px, 0px) scale(1);}
+  30% {transform: translate(0px, -30px) scale(0.98);}
+  100% {transform: translate(0px, 0px) scale(0.9);}
+}
+
+@keyframes flipin {
+  0% {transform: translate(0px, 0px) scale(0.9);}
+  30% {transform: translate(0px, -30px) scale(0.98);}
+  100% {transform: translate(0px, 0px) scale(1);}
+}
+
+@media screen and (min-width: 2000px) {
+}
+ 
+
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper { position: absolute; top: 0; left: 0; z-index: 99999999; overflow: hidden;}
+#cboxOverlay { position: fixed; width: 100%; height: 100%; z-index: 8888888;}
+#cboxMiddleLeft, #cboxBottomLeft { clear: left;}
+#cboxContent { position: relative;}
+#cboxLoadedContent { overflow: auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle { margin: 0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow { cursor: pointer;}
+.cboxPhoto { float: left; margin: auto; border: 0; display: block; max-width: none;}
+.cboxIframe { width: 100%; height: 100%; display: block; border: 0;}
+#colorbox, #cboxContent, #cboxLoadedContent { box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay {background: #000;}
+#cboxContent {margin-top: 20px;}
+.cboxIframe {background: #fff;}
+#cboxError {padding: 50px; border: 1px solid #cccccc;}
+#cboxLoadedContent {border: 5px solid black; background: #fff;}
+#cboxTitle {position: absolute; top: -20px; left: 0; color: #ccc; }
+#cboxCurrent {position: absolute; top: -20px; right: 0px; color: #ccc;}
+#cboxSlideshow { position: absolute; top: -20px; right: 90px; color: #fff;}
+#cboxPrevious { position: absolute; top: 50%; left: 5px; margin-top: -32px; background: url("/img/colorbox/controls.png") no-repeat top left; width: 28px; height: 65px; text-indent: -9999px;}
+#cboxPrevious:hover { background-position: bottom left;}
+#cboxNext { position: absolute; top: 50%; right: 5px; margin-top: -32px; background: url("/img/colorbox/controls.png") no-repeat top right; width: 28px; height: 65px; text-indent: -9999px;}
+#cboxNext:hover { background-position: bottom right;}
+#cboxLoadingOverlay { background: #000;}
+#cboxLoadingGraphic { background: url("/img/colorbox/loading.gif") no-repeat center center;}
+#cboxClose { position: absolute; top: 5px; right: 5px; display: block; background: url("/img/colorbox/controls.png") no-repeat top center; width: 38px; height: 19px; text-indent: -9999px;}
+#cboxClose:hover { background-position: bottom center;}
